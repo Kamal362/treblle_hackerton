@@ -1,0 +1,45 @@
+
+
+### Login if already logged in
+GET http://localhost:5000/api/login
+Content-Type: application/json
+
+### login for the first time
+POST http://localhost:5000/api/login
+Content-Type: application/json
+
+{
+ "email": "joy@gmail.com",
+  "password": "joy112651872"
+}
+
+
+### Logout 
+GET http://localhost:5000/api/logout
+Content-Type: application/json
+
+
+
+### register here
+POST http://localhost:5000/api/register
+Content-Type: application/json
+
+{
+  "email": "joy@gmail.com",
+  "password": "joy112651872"
+}
+
+
+
+
+
+
+
+### find user by email
+GET http://localhost:5000/api/register
+Content-Type: application/json
+
+{
+  "email": "tes433@exiample.com",
+  "password": "testing12345"
+}
